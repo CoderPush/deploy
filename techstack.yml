@@ -1,7 +1,8 @@
 repo_name: CoderPush/deploy
 report_id: ca82a2c7dd568cd27c2d383490a6d637
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T08:10:47+00:00'
+timestamp: '2024-01-05T08:57:22+00:00'
 requested_by: ricardclau
 provider: github
 branch: master
@@ -17,7 +18,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/663/ElOjna20.png
-  detection_source: example/my-playbook/ansible.cfg
+  detection_source_url: https://github.com/CoderPush/deploy/blob/master/ansible.cfg
+  detection_source: ansible.cfg
   last_updated_by: Carlos Buenosvinos
   last_updated_on: 2016-04-02 19:27:55.000000000 Z
 - name: Git
@@ -28,6 +30,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/CoderPush/deploy
   detection_source: Repo Metadata
 - name: Travis CI
   description: A hosted continuous integration service for open source and private
@@ -38,6 +41,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/CoderPush/deploy/blob/master/.travis.yml
   detection_source: ".travis.yml"
   last_updated_by: Carlos Buenosvinos
   last_updated_on: 2016-04-02 18:59:22.000000000 Z
@@ -50,6 +54,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Management
   image_url: https://img.stackshare.io/service/768/150px-Vagrant.png
+  detection_source_url: https://github.com/CoderPush/deploy/blob/master/Vagrantfile
   detection_source: Vagrantfile
   last_updated_by: Carlos Buenosvinos
   last_updated_on: 2016-01-20 09:57:54.000000000 Z
